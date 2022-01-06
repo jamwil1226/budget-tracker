@@ -1,3 +1,5 @@
+// starter code 
+
 let transactions = [];
 let myChart;
 
