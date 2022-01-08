@@ -24,7 +24,7 @@ To use this app after cloning and initializing the dependencies, run npm start i
 
 ![npm start](./public/images/npm-start.png)
 
-You will then see the confirmation that the port is listening.
+You will then see the confirmation that the app is running.
 
 ![Port Running](./public/images/port-running.png)
 
