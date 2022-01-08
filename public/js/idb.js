@@ -58,9 +58,11 @@ function uploadTransaction() {
           }
 
           const transaction = db.transaction(['new_transaction'], 'readwrite');
-          const transactionObjectStore = transaction.objectStore('new_transaction');
+          const budgetObjectStore = transaction.objectStore('new_transaction');
           // clear all items in your store
-          transactionObjectStore.clear();
+          budgetObjectStore.clear();
+
+          alert('Your saved transactions have been submitted!')
         })
         .catch(err => {
           // set reference to redirect back here
